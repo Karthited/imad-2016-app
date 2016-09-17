@@ -8,8 +8,28 @@ body {
     text-align: center;
 }
 
+.panel{
+	width:50%;
+	display: block;
+    margin: 0 auto;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.logo{
+	display: block;
+    margin: 0 auto;	
+	width: 120px;
+	height: 120px;
+    overflow: hidden;
+    border-radius: 60%;
+	box-shadow: 10px 10px 5px #888888;
+}
 .text-big {
     font-size: 300%;
+}
+
+.text-style{
+    font-family: Courier, Monaco, monospace;
 }
 
 .bold {
